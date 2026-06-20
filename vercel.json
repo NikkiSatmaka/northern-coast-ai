@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/score.ts": {
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/score",
+      "destination": "/api/score"
+    }
+  ]
+}
